@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savita - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">Savita's Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Hi, I'm <span>Savita</span></h1>
+            <div>I am a <span id="typed"></span></div>
+            <a href="resume/savita_resume.pdf" download>
+                <button>Download Resume</button>
+            </a>
+            <a href="https://www.linkedin.com/in/savita-khairnar-601421381"
+   target="_blank" rel="noopener noreferrer">
+    <button>Visit LinkedIn</button>
+    </a>
+
+  </div>
+        <div class="home-image">
+            <img src="image/photo.png" alt="Savita Photo">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Savita, a passionate front-end developer. I enjoy creating beautiful and responsive websites. My main focus is on HTML, CSS, JavaScript, and Python. I love bringing ideas to life in the browser!</p>
+    </section>
+
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item">
+                <img src="image/html.png" alt="HTML">
+                <span>HTML</span>
+                <p>Structuring web pages with semantic HTML.</p>
+            </div>
+            <div class="skill-item">
+                <img src="image/css.png" alt="CSS">
+                <span>CSS</span>
+                <p>Styling websites with responsive layouts and beautiful design.</p>
+            </div>
+            <div class="skill-item">
+                <img src="image/python.png" alt="Python">
+                <span>Python</span>
+                <p>Programming logic, backend scripts, and automation.</p>
+            </div>
+            <div class="skill-item">
+                <img src="image/js.png" alt="JavaScript">
+                <span>JavaScript</span>
+                <p>Adding interactivity and dynamic functionality to web pages.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-item">
+            <h4>Calculator</h4>
+            <p>Simple calculator project using HTML, CSS, and JavaScript. Supports addition, subtraction, multiplication, and division.</p>
+        </div>
+        <div class="project-item">
+            <h4>Spotify Clone</h4>
+            <p>A clone of Spotify UI with playlists, songs, and basic player functionality using HTML, CSS, and JavaScript. Styled to mimic the real Spotify interface.</p>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:savitakhairnar80@gmail.com">savitakhairnar80@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/savita-khairnar-601421381" target="_blank">linkedin.com/in/savita-khairnar</a></p>
+        <p>Phone: <a href="tel:+911234567890">+91 8010849733</a></p>
+    </section>
+
+    
+    <footer>
+        <p>Savita 2026 | My Portfolio</p>
+    </footer>
+
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Web Developer', 'Python Developer', 'Web Designer'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
